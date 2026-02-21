@@ -15,22 +15,22 @@ with open("auth.log", "r") as file:
             else:
                 ips[ip] = 1
 
-print("Resumo de tentativas:\n")
-
-for ip, count in ips.items():
-    print("IP:", ip, "→", count, "tentativas")
-
-
 maior_ip = None
 maior_count = 0
 
 for ip, count in ips.items():
-    if count > maior_count:
-        maior_count = count
-        maior_ip = ip
-
-print("\nIP mais sus:")
-print(maior_ip, "com", maior_count, "tentativas")
+	if count >= 3:
+		print("\nIP:", ip, "->", count, "tentativas")
+		
+		if count > maior_count:
+			maior_count = count
+			maior_ip = ip
+			
+if maior_ip is not None:
+	print("\nIP mais sus:")
+	print(maior_ip, "com", maior_count, "tentativas")
+else:
+	print("n404 error.")
 
 with open("resultado.txt", "w") as output:
 	for ip, count in ips.items():
