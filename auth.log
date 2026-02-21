@@ -1,0 +1,11 @@
+Nov 20 03:12:01 kali sshd[1024]: Failed password for invalid user admin from 45.33.21.8 port 51123 ssh2
+Nov 20 03:12:03 kali sshd[1024]: Failed password for invalid user root from 45.33.21.8 port 51125 ssh2
+Nov 20 03:12:05 kali sshd[1024]: Failed password for invalid user test from 45.33.21.8 port 51128 ssh2
+Nov 20 03:12:08 kali sshd[1024]: Accepted password for root from 45.33.21.8 port 51130 ssh2
+Nov 20 03:15:44 kali sshd[1030]: Failed password for kali from 192.168.0.15 port 52211 ssh2
+Nov 20 03:16:10 kali sshd[1030]: Accepted password for kali from 192.168.0.15 port 52211 ssh2
+Nov 20 04:02:17 kali sshd[1042]: Failed password for invalid user guest from 203.0.113.55 port 49822 ssh2
+Nov 20 04:02:19 kali sshd[1042]: Failed password for invalid user guest from 203.0.113.55 port 49823 ssh2
+Nov 20 04:02:21 kali sshd[1042]: Failed password for invalid user guest from 203.0.113.55 port 49824 ssh2
+Nov 20 04:05:01 kali sudo:    kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/bin/ls
+Nov 20 04:10:33 kali sshd[1050]: Accepted publickey for geo from 10.0.0.8 port 60123 ssh2
